@@ -1,0 +1,230 @@
+@font-face {
+    font-family: Lato; 
+    src: url(assets/Lato-Regular.ttf); 
+   }
+
+.header {
+    height: 89px;
+    width: 1020px;
+    margin: auto;  
+}
+
+.logo {
+    margin: 35px 0px 35px 40px;
+    font-size: 25px;
+    line-height: 19px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: -0.4px;
+}
+
+.header-top h1 span {
+    color: #f06c64;;  
+}
+
+.header-top {
+    background-color: #2d303a;
+    width: 1020px;
+    height: 89px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bottom {
+    background-color: #323746;
+    width: 1020px;
+    height: 6px;
+    position: absolute;
+    z-index: 1;
+}
+
+.navbar {
+    margin: 45px 40px 35px 0px;
+    width: 370px;
+    height: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    padding: inherit;
+    margin: auto;   
+}
+
+.navbar ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: "Lato";
+    font-weight: 700;
+    line-height: 6px;
+}
+
+.navbar ul li a:hover {   
+    color: #f06c64;
+}
+
+li {
+    list-style-type: none;
+}
+
+.slider-top {
+    width: 1020px;
+    height: 600px;
+    background-color: #f06c64;
+    margin: auto; 
+}
+
+#iPhoneVertical {
+    margin: 58px 0px 0px 110px;
+}
+
+#iPhoneHorizontal {
+    margin: 0px 0px 120px 70px;
+}
+
+#chev {
+    margin: 288px  0 0px 42px;
+    position: absolute;
+}
+
+#chev:hover {
+    filter:  grayscale(100)  
+}
+
+#chev2 {
+    margin: 288px  0 0px 964px;
+    position: absolute;
+}
+
+#chev2:hover {
+    filter:  grayscale(100)  
+}
+
+.slider-bottom {
+    width: 1020px;
+    height: 6px;
+    background-color: #ea676b;
+    margin: auto; 
+}
+
+.services {
+    width: 1020px;
+    height: 495px;
+    background-color: #f2f2f2;
+    margin: auto;
+}
+
+.services-bottom {
+    width: 1020px;
+    height: 6px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    width: 1020px;
+    height: 220px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    width: 950px;
+    height: 122px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    width: 950px;
+    height: 120px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fusce {
+    width: 950px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    margin: 28px 0px 0px 38px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin: 67px 0px 0 40px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+
+p {
+    width: 305px;
+    height: 128px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+    
+}
+
+#pen {
+    float: left;
+    margin: 0px 20px 20px 5px;
+}
+
+#bulb {
+    float: left;
+    margin: 0px 20px 86px 0;
+}
+
+#heart {
+    float: left;
+    margin: 0px 20px 86px 0;
+}
+
+#phone {
+    float: left;
+    margin: 0px 18px 86px 5px;
+}
+
+#bubble {
+    float: left;
+    margin: 0px 20px 86px 0;
+}
+
+#star {
+    float: left;
+    margin: 0px 20px 86px 0;
+}
+
