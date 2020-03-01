@@ -1,0 +1,335 @@
+@font-face {
+    font-family: Lato; 
+    src: url(assets/Lato-Regular.ttf); 
+}
+
+.portfolio {
+    width: 1020px;
+    height: 870px;
+    background-color: #2d303a;
+    margin: auto; 
+    position: relative;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    display: inline-block;
+    margin: 70px 0px 0px 40px;
+}
+
+.duis {
+    width: 940px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    margin: 18px 0px 0px 40px;
+}
+
+.navbar ul {
+    width: 289px;
+    display: flex;
+    justify-content: space-between;
+    padding: inherit;
+    margin: 10px 0px 0px 40px;  
+}
+
+.navbar ul li a {
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    height: 22px;
+    border-radius: 5px;
+    background-color: #2d303a;
+    border: 1px solid #767e9e;
+    padding: 0px 7px 0px 7px;
+}
+
+.navbar ul li a:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+li {
+    list-style-type: none;
+}
+
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 960px;
+    height: 601px;
+    margin: 20px 0px 0px 40px;
+    overflow: hidden; 
+    justify-content: space-between;
+}
+
+#Project {
+    object-fit: cover;
+    width: 220px;
+    height: 187px;
+}
+
+.Project1 {
+    background-image: url(assets/Project1.png);
+    object-fit: cover;
+    width: 220px;
+    height: 187px;
+    margin: 0px 20px 0px 0px;
+    background-position: 44% 23%;
+}
+
+.Project2 {
+    background-image: url(assets/Project2.png);
+    object-fit: cover;
+    width: 220px;
+    height: 187px;
+    margin: 0px 20px 0px 0px;
+    background-position: 45% 18%;
+}
+
+.Project3 {
+    background-image: url(assets/Project3.png);
+    object-fit: cover;
+    width: 220px;
+    height: 187px;
+    margin: 0px 20px 0px 0px;
+    background-position: 44% 23%;
+}
+
+.Project4 {
+    background-image: url(assets/Project4.png);
+    object-fit: cover;
+    width: 220px;
+    height: 187px;
+    margin: 0px 20px 0px 0px;
+    background-position: 57% 50%;
+}
+
+.Project5 {
+    background-image: url(assets/Project5.png);
+    object-fit: cover;
+    width: 220px;
+    height: 187px;
+    margin: 0px 20px 0px 0px;
+    background-position: 41% 55%;
+}
+
+.Project6 {
+    background-image: url(assets/Project6.png);
+    object-fit: cover;
+    width: 220px;
+    height: 187px;
+    margin: 0px 20px 0px 0px;
+    background-position: 56% 24%;
+}
+
+.Project7 {
+    background-image: url(assets/Project7.png);
+    object-fit: cover;
+    width: 220px;
+    height: 187px;
+    margin: 0px 20px 0px 0px;
+    background-position: 36% 1%;
+}
+
+.Project8 {
+    background-image: url(assets/Project8.png);
+    object-fit: cover;
+    width: 220px;
+    height: 187px;
+    margin: 0px 20px 0px 0px;
+    background-position: 20% 21%;
+}
+
+.Project9 {
+    background-image: url(assets/Project9.png);
+    object-fit: cover;
+    width: 220px;
+    height: 187px;
+    margin: 0px 20px 0px 0px;
+    background-position: 74% 77%;
+}
+
+.Project10 {
+    background-image: url(assets/Project10.png);
+    object-fit: cover;
+    width: 220px;
+    height: 187px;
+    margin: 0px 20px 0px 0px;
+    background-position: 57% 27%;
+}
+
+.Project11 {
+    background-image: url(assets/Project11.png);
+    object-fit: cover;
+    width: 220px;
+    height: 187px;
+    margin: 0px 20px 0px 0px;
+    background-position: 41% 35%;
+}
+
+.Project12 {
+    background-image: url(assets/Project12.png);
+    object-fit: cover;
+    width: 220px;
+    height: 187px;
+    margin: 0px 20px 0px 0px;
+    background-position: 49% 25%;
+}
+
+.galery-bottom {
+    width: 1020px;
+    height: 6px;
+    background-color: #323746;
+    position: absolute;
+    bottom: 0px;
+}
+
+.about {
+    width: 1020px;
+    height: 728px;
+    background-color: #f2f2f2;
+    margin: auto; 
+}
+ 
+.us {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    display: inline-block;
+    margin: 68px 0px 0px 40px;
+}
+
+.fusce {
+    width: 950px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    margin: 23px 0px 0px 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 940px;
+    height: 500px;
+    margin: 46px 0px 0px 40px;
+    justify-content: space-between;
+}
+
+#adam {
+    width: 300px;
+    height: 300px;
+}
+
+#desmond {
+    width: 300px;
+    height: 300px;
+}
+
+#scolara {
+    width: 300px;
+    height: 300px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    white-space: nowrap;
+    margin: 14px 0px 0px 0px;
+}
+
+.info {
+    width: 300px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    margin: 8px 0px 22px 0px;
+}
+
+.box {
+    width: 300px;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    padding: 0px 7px 0 0px;
+}
+
+.fb {
+    width: 33px;
+    height: 33px;
+    background-image: url(assets/facebook.png);
+}
+
+.fb:hover {
+    background-image: url(assets/facebook1.png);
+}
+
+.google {
+    width: 33px;
+    height: 33px;
+    background-image: url(assets/google.png);
+}
+
+.google:hover {
+    background-image: url(assets/google1.png);
+}
+
+.tw {
+    width: 33px;
+    height: 33px;
+    background-image: url(assets/twitter.png);
+}
+
+.tw:hover {
+    background-image: url(assets/twitter1.png);
+}
+
+.ldn {
+    width: 33px;
+    height: 33px;
+    background-image: url(assets/linkedin.png);
+}
+
+.ldn:hover {
+    background-image: url(assets/linkedin1.png);
+}
+
+.about-bottom {
+    width: 1020px;
+    height: 6px;
+    background-color: #ffffff;
+    margin: auto;
+}
