@@ -5,46 +5,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
     <link type="text/css" rel="stylesheet" href="style.css" />
     <title>Singolo</title>
 </head>
 
 <body>
+    <div id="wrapper">
+    <div id="header_dop"></div>
     <header class="header1">
-        <div class="header-top">
+        <div class="header-top" id="header">
             <h1 class="logo">SINGOLO<span>*</span></h1>
             <nav class="navbar1">
-                <ul>
+                <ul id="menu122">
                     <li class="none">
-                        <a href="#">HOME</a>
+                        <a href="#header_dop" class="active">HOME</a>
                     </li>
                     <li>
-                        <a href="#">SERVICES</a>
+                        <a href="#services">SERVICES</a>
                     </li>
                     <li>
-                        <a href="#">PORTFOLIO</a>
+                        <a href="#portfolio">PORTFOLIO</a>
                     </li>
                     <li>
-                        <a href="#">ABOUT</a>
+                        <a href="#about">ABOUT</a>
                     </li>
                     <li>
-                        <a href="#">CONTACT</a>
+                        <a href="#contact">CONTACT</a>
                     </li>
                 </ul>
             </nav>
         </div>
         <div class="header-bottom"></div>
     </header>
-    <slider class="#">
-        <div class="slider-top">
-            <img src="assets/chev.svg" id="chev" alt="chev">
-            <img src="assets/chev2.svg" id="chev2" alt="chev2">
-            <img src="assets/iPhone Vertical.png" id="iPhoneVertical" alt="iPhoneVertical">
-            <img src="assets/iPhone Horizontal.png" id="iPhoneHorizontal" alt="iPhoneHorizontal">
+    <slider>
+    <div class="carousel">
+        <div class="item-conteiner">
+            <div class="item active">
+                <div class="description">
+                <div class="project-name"></div>
+                <img src="assets/Slide-1.jpg" alt="#">            
+                </div>
+            </div>
+            <div class="item">
+                <div class="description">
+                <div class="project-name"></div>
+                <img src="assets/Slide-2.jpg" alt="#">            
+                </div>
+            </div>       
+        </div>
+        <div class="control left">
+            <div class="arrow right"><img src="assets/chev.svg" id="chev" alt="chev"></div>
+        </div>
+        <div class="control right">
+            <div class="arrow left"><img src="assets/chev2.svg" id="chev2" alt="chev2"></div>
         </div>
         <div class="slider-bottom"></div>
+    </div>
     </slider>
-    <footer class="services">
+    <div class="services" id="services">
         <div class="container1">
             <h3>Our Services</h3>
             <p class="services_text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis,
@@ -94,45 +113,45 @@
                 <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
             </div>
         </div>
-    </footer>
-    <div class="services-bottom"></div>
-    <div class="portfolio">
+    </div>
+    <span class="services-bottom"></span>
+    <div class="portfolio" id="portfolio">
         <h1>Portfolio</h1>
         <p class="duis">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
         </p>
         <nav class="navbar2">
-            <ul>
+            <ul id="menu_portfolio">
                 <li>
-                    <a href="#">All</a>
+                    <div id="btn_All"><a href="#" onclick="return false" class="active">All</a></div>
                 </li>
                 <li>
-                    <a href="#">Web Design</a>
+                    <a href="#" onclick="return false">Web Design</a>
                 </li>
                 <li>
-                    <a href="#">Graphic Design</a>
+                    <a href="#" onclick="return false">Graphic Design</a>
                 </li>
                 <li>
-                    <a href="#">Artwork</a>
+                    <a href="#" onclick="return false">Artwork</a>
                 </li>
             </ul>
         </nav>
-        <div class="galery">
-            <div class="Project1"></div>
-            <div class="Project2"></div>
-            <div class="Project3"></div>
-            <div class="Project4"></div>
-            <div class="Project5"></div>
-            <div class="Project6"></div>
-            <div class="Project7"></div>
-            <div class="Project8"></div>
-            <div class="Project9"></div>
-            <div class="Project10"></div>
-            <div class="Project11"></div>
-            <div class="Project12"></div>
+        <div class="galery" id="galery">
+            <div class="Project1 Art"><a href="#" onclick="return false" active></a></div>
+            <div class="Project2 Art"><a href="#" onclick="return false"></a></div>
+            <div class="Project3 Art"><a href="#" onclick="return false"></a></div>
+            <div class="Project4 Art"><a href="#" onclick="return false"></a></div>
+            <div class="Project5 Art"><a href="#" onclick="return false"></a></div>
+            <div class="Project6 Art"><a href="#" onclick="return false"></a></div>
+            <div class="Project7 Art"><a href="#" onclick="return false"></a></div>
+            <div class="Project8 Art"><a href="#" onclick="return false"></a></div>
+            <div class="Project9 Art"><a href="#" onclick="return false"></a></div>
+            <div class="Project10 Art"><a href="#" onclick="return false"></a></div>
+            <div class="Project11 Art"><a href="#" onclick="return false"></a></div>
+            <div class="Project12 Art"><a href="#" onclick="return false"></a></div>
         </div>
         <div class="galery-bottom"></div>
     </div>
-    <div class="about">
+    <div class="about" id="about">
         <p class="us">About Us</p>
         <p class="fusce">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo
             luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
@@ -201,8 +220,8 @@
             </div>
         </div>
     </div>
-    <div class="about-bottom"></div>
-    <div class="header2">
+    <span class="about-bottom"></span>
+    <div class="header2" id="contact">
         <p class="heading">Get a Quote</p>
         <p class="text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo
             luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
@@ -213,7 +232,16 @@
                 <input required type="email" ; id="email" ; placeholder="Email (Required)"><br />
                 <input type="info" ; id="sub" ; placeholder="Subject"><br />
                 <textarea type="info" ; id="detail" ; placeholder="Describe your project in detail..."></textarea><br />
-                <button class="button">Submit</button>
+                
+                <div id="message-block" class="hidden">
+                    <div id="message">
+                        <p>Письмо отправлено</p>
+                        <p><span id="result"></span></p>
+                        <p><span id="result2"></span></p>
+                        <br>
+                        <button id="close-btn">OK</button>
+                    </div>
+                </div>           
             </form>
             <div class="contact">
                 <p class="contact_info">Contact Information</p>
@@ -234,6 +262,8 @@
                 </div>
             </div>
         </div>
+        <button id="button">Submit</button>
+    
     </div>
     <div class="footer">
         <p class="copyright">© Copyright 2013</p>
@@ -252,6 +282,8 @@
             </a>
         </div>
     </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

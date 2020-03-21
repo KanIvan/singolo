@@ -24,10 +24,29 @@
     src: url(assets/Lato-Regular.ttf); 
    }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .header1 {
     height: 89px;
     width: 1020px;
     margin: auto;  
+    position: fixed;
+    z-index: 2;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+#header_dop {
+    height: 89px;
+    width: 1020px;
+    margin: auto;  
+    position: static;
+    visibility: hidden;
+    right: 0;
+    left: 0;
 }
 
 .logo {
@@ -87,6 +106,10 @@
     color: #f06c64;
 }
 
+.navbar1 ul li a.active {   
+    color: #f06c64;
+}
+
 .navbar1 ul li {
     color: #323746;
 }
@@ -95,34 +118,126 @@
     list-style-type: none;
 }
 
-.slider-top {
+.carousel {
+    position: relative;
     width: 1020px;
     height: 600px;
-    background-color: #f06c64;
-    margin: auto; 
+    text-align: center;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    margin: auto;
 }
 
-#iPhoneVertical {
-    margin: 58px 0px 0px 110px;
+.item {
+    display: none;
+    position: relative;
+    margin: 0 auto;
+    animation: 1s ease-in-out;
 }
 
-#iPhoneHorizontal {
-    margin: 0px 0px 120px 70px;
+.item.active,
+.item.next {
+    display: block;
 }
 
-#chev {
+.next {
+    position: absolute;
+    top: 0;
+    width: 1020px;
+}
+
+.description {
+    display: flex;
+    margin: auto;
+}
+
+
+.item-conteiner {
+    width: 1020px;
+    position: relative;
+    overflow: hidden;
+}
+
+.control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.control.left {
+    left: 50px;
+    right: auto;
+
+}
+
+.control.right {
+    left: auto;
+    right: 50px;
+}
+
+.arrow {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+}
+
+.arrow.right {
+    right: 50%;
+}
+
+.to-left {
+    animation-name: left;
+}
+
+.to-right {
+    animation-name: right;
+    animation-direction: reverse;
+}
+
+.from-left {
+    animation-name: left;
+    animation-direction: reverse;
+}
+
+.from-right {
+    animation-name: right;
+}
+
+@keyframes left {
+    from {
+        left: 0;
+    }
+    to {
+        left: -100%;
+    }
+}
+
+@keyframes right {
+    from {
+        left: 100%;
+    }
+    to {
+        left: 0;
+    }
+}
+
+/* #chev {
     margin: 288px  0 0px 42px;
     position: absolute;
-}
+    z-index: 1;
+} */
 
 #chev:hover {
     filter:  grayscale(100)  
 }
 
-#chev2 {
+/* #chev2 {
     margin: 288px  0 0px 964px;
     position: absolute;
-}
+    z-index: 1;
+} */
 
 #chev2:hover {
     filter:  grayscale(100)  
@@ -140,6 +255,7 @@
     height: 495px;
     background-color: #f2f2f2;
     margin: auto;
+    position: relative;
 }
 
 .services-bottom {
@@ -312,6 +428,11 @@ h1 {
     border: 1px solid white;
 }
 
+.navbar2 ul li a.active {
+    color: white;
+    border: 1px solid white;
+}
+
 .navbar2 li {
     list-style-type: none;
 }
@@ -331,6 +452,16 @@ h1 {
     object-fit: cover;
     width: 220px;
     height: 187px;
+}
+
+.Art a.active  {
+    border: 5px solid #F06C64;
+}
+
+.galery .Art a {
+    display: block;
+    width: 212px;
+    height: 180px;
 }
 
 .Project1 {
@@ -701,10 +832,11 @@ h1 {
     color: #f06c64;
 }
 
-.button {
+#button {
     height: 35px;
     width: 120px;
     margin-top: 15px;
+    margin-left: 40px;
     border-radius: 5px;
     background-color: #f0d8d9;
     font-size: 18px;
@@ -884,4 +1016,49 @@ h1 {
 
 .ldn:hover {
     background-image: url(assets/linkedin1.png);
+}
+
+#message-block {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: #0088;
+}
+
+.hidden {
+    display: none;
+}
+
+#message {
+    position: absolute;
+    border-radius: 15px;
+    top: 35%;
+    left: 35%;
+    border: 2px solid #ea676b;
+    text-align: center;
+    background-color: #d6564f;
+}
+
+#message p {
+    width: 200px;
+    height: 10px;
+    text-align: left;
+    color: white;
+    font-size: 15px;
+    font-family: "Lato";
+    padding-left: 20px;
+}
+
+#close-btn {
+    height: 35px;
+    width: 80px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f0d8d9;
+    font-size: 15px;
+    color: #f06c64;
+    font-family: "Lato";
+    font-weight: 400;
 }
